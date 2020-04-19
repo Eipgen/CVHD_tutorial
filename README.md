@@ -21,7 +21,7 @@ or
 
 ## 安装
 
-1.阅读colvars_cvhd的readme.txt,将lib/colvars和USER-COLVARS文件夹替换lammps下的lib/colvars和src/USER-COLVARS，同时拷贝fix_timeboost.cpp  fix_timeboost.h 到lammps的src文件下。
+1.仔细阅读colvars_cvhd的readme.txt。
    ```
    cp -r lib/colvars ~/lammps-7Mar19/lib/
    cp -r USER-COLVARS ~/lammps-7Mar19/src/
