@@ -1,9 +1,9 @@
 # CVHD的安装
 ## 准备
 
-0.假设电脑已经安装openmpi和相关的编译器 
+0.假设电脑已经安装openmpi 4.1和相关的编译器 
 
-1.下载解压lammps 
+1.下载解压lammps,建议使用使用lammps-7Aug19
    
 ```
 wget http://lammps.sandia.gov/tars/lammps-stable.tar.gz
