@@ -14,9 +14,7 @@ tar -xvf lammps-stable.tar.gz
 wget https://sites.google.com/site/kristofbal/colvars-cvhd.tar.gz
 
 or
-
-链接：https://pan.baidu.com/s/1y1zgv4iCvIEnV0mzNzXu9w 
-提取码：k8me 
+直接从上面下载
 ```
 
 ## 安装
@@ -47,10 +45,9 @@ source $HOME/.bashrc
 ```
 lmp_mpi -h
 ```
-下载例子，跑一个正十二烷的裂解，需要安装user-reaxc包
+下载上面的例子，跑一个正十二烷的裂解，需要安装user-reaxc包
+
 ```
-链接：https://pan.baidu.com/s/1LLZRbEIPU7ILbi6J71yr_Q 
-提取码：07qz 
 
 mpirun -np 8 lmp_mpi -in in.ch
 ```
