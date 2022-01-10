@@ -1,0 +1,43 @@
+colvarsTrajFrequency 1000 # output every 10000 steps
+colvarsRestartFrequency 100000
+indexFile atoms.ndx
+
+colvar {
+  name coord
+
+  width 0.05
+
+  bondBreakMulti {
+    group1 {
+      indexGroup carbon
+    }
+    group2 {
+      indexGroup hydrogen
+    }
+    rmin11 1.55
+    rmax11 2.20
+    rcut11 1.70
+    rmin12 1.05
+    rmax12 1.65
+    rcut12 1.30
+    rmin22 0.10
+    rmax22 0.10
+    rcut22 0.10
+    waitTime 10000
+    power 8
+  }
+}
+
+cvhd {
+  name hd
+  colvars coord
+  dynamicBias on
+  outputEnergy on
+  maxBias 10.0
+  hillWidth 1.0
+  hillWeight 0.25
+  newHillFrequency 2000
+}
+
+
+
