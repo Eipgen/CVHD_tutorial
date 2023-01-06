@@ -1,4 +1,5 @@
-# CVHD INSTALL
+# CVHD  INSTALL
+[![Check Markdown links](https://github.com/DiracMD/CVHD_tutorial/actions/workflows/main.yml/badge.svg)](https://github.com/DiracMD/CVHD_tutorial/actions/workflows/main.yml)
 ## Prepare
 
 0.Suppose your server had install openmpi 4.1.0 and corresponding complier
